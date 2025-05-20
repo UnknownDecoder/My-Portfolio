@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Portfolio - Ayush KS</title>
+        <link rel='stylesheet' href='style.css' />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+        
+        <meta charset='UTF-8' />
+        <meta name='author' content='Ayush Kumar Singh' />
+        <meta name='keywords' content='web development, javascript, portfolio, web developer, front-end developer' />
+        <meta name='description' content='A simple Portfolio site made by Ayush Kumar Singh' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta property='og:title' content='Portfolio - Ayush Kumar Singh' />
+        <meta property='og:description' content='A simple Portfolio site made by Ayush Kumar Singh' />
+        <meta property='og:image' content='Profile Picture.png'
+        
+    </head>
+    <body>
+        <div class='intro'>
+            <div class='pfp-container'>
+                <img src='https://i.ibb.co/s4hcPMk/1744865430682.jpg' alt='Profile Picture' class='Profile-pic'>
+            </div>
+            <h1>Ayush Kumar Singh</h1>
+            <br />
+            <div class='nav'>
+                <div class='nav-item' onclick='document.querySelector(".AboutMeBox").scrollIntoView({ behavior : "smooth", block : "center" })'> About Me </div>
+                <div class='nav-item' onclick='document.querySelector(".HobbiesBox").scrollIntoView({ behavior : "smooth", block : "center" })'> Hobbies </div>
+                <div class='nav-item' onclick='document.querySelector(".SkillsBox").scrollIntoView({ behavior : "smooth", block : "center" })'> My Skills </div>
+                <div class='nav-item' onclick='document.querySelector(".ProjectsBox").scrollIntoView({ behavior : "smooth", block : "center" })'> Projects </div>
+                <div class='nav-item' onclick='document.querySelector(".CertificatesBox").scrollIntoView({ behavior : "smooth", block : "center" })'> Certificates </div>
+            </div>
+            
+        </div>
+        
+        <div class='container AboutMeBox'>
+            <h1>About Me</h1>
+            <p>Bonjour, I am Ayush, an ambitious student with passion for programming and a drive to innovate.</p>
+            <p>I started learning Java at 12 years of age, inspired by some games made in Java, but soon my interest came to Python and JavaScript.</p>
+            <p>Presently I have earned the certificates of Python, Java and Web Development and I am trying to boost my Web Development skills.</p>
+        </div>
+        
+        <div class='container HobbiesBox'>
+            <h1>Hobbies</h1>
+            <p>Some of my favourite hobbies include…</p>
+            <ul>
+                <li>Programming in Python.</li>
+                <li>Developing some small websites for fun with HTMl, CSS and JavaScript.</li>
+                <li>Reading some short stories.</li>
+                <li>Simple sketches.</li>
+                <li>Learning cosmology.</li>
+            </ul>
+        </div>
+        
+        <div class='container SkillsBox'>
+            <h1>My Skills</h1>
+            <h2>HTML - 92%</h2>
+            <progress min='0' max='100' value='92'></progress>
+            <h2>Python - 90%</h2>
+            <progress min='0' max='100' value='90'></progress>
+            <h2>JavaScript - 70%</h2>
+            <progress min='0' max='100' value='65'></progress>
+            <h2>CSS - 76%</h2>
+            <progress min='0' max='100' value='70'></progress>
+            <h2>Java - 70%</h2>
+            <progress min='0' max='100' value='70'></progress>
+        </div>
+        
+        <div class='container ProjectsBox'>
+            <h1>Projects</h1>
+            <p>I honestly have not made any important stuff till now except this Portfolio and my Pixel Art Designer which works a bit glitchy.</p>
+            <p>Here they are:</p>
+            <ul>
+                <li><a href='https://UnknownDecoder.github.io/Pixel-Art-Designer'>Pixel Art Designer</a></li>
+                <li><u>Portfolio - Ayush Kumar Singh</u></li>
+            </ul>
+        </div>
+        
+        <div class='container CertificatesBox'>
+            <h1>Certificates</h1>
+            <p>In this period of learning programming, I've earned some certificates. Some aren't that important while here are the important ones:</p>
+            <h2>Python Developer</h2>
+            <img src='https://api2.sololearn.com/v2/certificates/CC-7PCFRYMC/image/png?t=638699177245761480' alt='Python Developer Certificate' class='certificate'>
+            <h2>Web Development</h2>
+            <img src='https://api2.sololearn.com/v2/certificates/CC-WRLV6WMK/image/png?t=638740922445665770' alt='Web Development Certificate' class='certificate'>
+            <h2>Java</h2>
+            <img src='https://api2.sololearn.com/v2/certificates/CC-AFAFD3TN/image/png?t=638791708800045390' alt='Java Certificate' class='certificate'>
+            <p>Note: The Java certificate is of introduction to it but I know much more than what the app taught.</p>
+        </div>
+        
+        <footer>
+            <p>Created by Ayush Kumar Singh<br />&copy; 2025-26 - All Copyrights Reserved<br />Last Updated - 20th May, 2025</p>
+            <p>You can contact me on Discord at <a href='https://www.discord.com/users/1142426108223033485'>@unknown_decoder</a></p>
+        </footer>
+        
+    </body>
+</html>
