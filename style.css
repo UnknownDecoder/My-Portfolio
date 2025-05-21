@@ -2,9 +2,15 @@
     --fontSize: 50px;
 }
 
+::webkit-scrollbar {
+    display: none;
+}
+
 * {
     font-family: Poppins;
     color: #fff;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 body {
