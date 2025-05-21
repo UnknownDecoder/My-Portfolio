@@ -138,6 +138,7 @@ footer {
     padding: calc(var(--fontSize) * 1.5) 10vw calc(var(--fontSize) * 1.5) 10vw;
     text-align: center;
     font-size: calc(var(--fontSize) / 1.5);
+    margin-top: calc(var(--fontSize) * 2.5);
 }
 
 /* Media Queries */
